@@ -1,0 +1,8 @@
+Input_values = input('Enter Values: ')
+
+Values = Input_values.split()
+
+for i in range(len(Values)):
+    Values[i] = int(Values[i])
+    
+print(sum(Values))
