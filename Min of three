@@ -1,0 +1,12 @@
+count = int(input())
+
+Mins = []
+
+for i in range(0,count):
+    nums = input().split()
+    a = int(nums[0])
+    b = int(nums[1])
+    c = int(nums[2])
+    Mins.append(str(min(a,b,c)))
+    
+print(' '.join(Mins))
