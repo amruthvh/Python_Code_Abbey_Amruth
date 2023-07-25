@@ -1,0 +1,12 @@
+#Input values
+input_values = input('values: ')
+
+#Split Values
+Values = input_values.split()
+
+#Convert string values into integers in order to perform mathematical operations
+for i in range(len(Values)):
+    Values[i] = int(Values[i])
+
+#sum of values using the function "sum"
+print (sum(Values))
