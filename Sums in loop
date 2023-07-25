@@ -1,0 +1,12 @@
+#no. of pairs to be counted
+count = int(input())
+
+Sums = []
+
+for i in range(0,count):
+    nums = input().split()
+    a = int(nums[0])
+    b = int(nums[1])
+    Sums.append(str(a+b))
+    
+print(' '.join(Sums))
